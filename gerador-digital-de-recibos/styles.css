@@ -1,0 +1,108 @@
+body {
+  margin: 20px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.recibo {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  border: 3px double black;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recibo-cabeca {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.recibo-cabeca span {
+  font-size: 20px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.linha span {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  min-width: 300px;
+  padding: 0 5px;
+}
+
+.linha p {
+  margin: 0;
+}
+
+.linha-final {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.linha-final span {
+  border-bottom: 1px solid #000;
+  min-width: 200px;
+  padding: 0 5px;
+  text-align: center;
+}
+.assinatura_css {
+  margin-top: -39px;
+  border-bottom: 1px solid #000;
+}
+
+.assinatura {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assinatura p {
+  text-align: center;
+  padding-top: 15px;
+}
+.paragrafo {
+  margin-top: 60px;
+  border-bottom: 1px solid #000;
+}
+#mesPagamento {
+  display: inline;
+  border: none;
+  min-width: auto;
+  padding: 0;
+}
+.cidade {
+  text-align: center;
+}
+.aviso {
+  position: absolute;
+  width: 227px;
+  font-size: 13px;
+  color: yellow;
+  font-weight: bold;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 0.6;
+  margin: -5px 0 0 -12px;
+}
+@media (max-width: 768px) {
+  .recibo {
+    width: 95%;
+    font-size: 16px;
+  }
+}
