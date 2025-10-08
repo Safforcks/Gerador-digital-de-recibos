@@ -14,4 +14,4 @@ Foi assim que surgiu o Gerador Digital de Recibos, um sistema desenvolvido do ze
 - CSS3
 - JavaScript
 
-Um vídeo do Linkedln para ver o exemplo de usar o meu programa: <a>https://www.linkedin.com/feed/update/urn:li:activity:7334399028828196865/</a>
+Veja no LinkedIn um vídeo demonstrando o uso do meu programa: <a>https://www.linkedin.com/feed/update/urn:li:activity:7334399028828196865/</a>
